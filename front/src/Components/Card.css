@@ -1,0 +1,26 @@
+
+.each-display{
+    background: hsl(302deg 59% 5% / 50%);
+    margin: 2rem 0;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+}
+.dashboard-title{
+    max-width: 500px;
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua;
+    display: flex; */
+    margin: 0 28%;
+    align-items: center;
+    text-align: center;
+    /* margin:0 auto; */
+}
+.series{
+    /* width: ; */
+    height: 50%;font-size: 1.5rem;
+    text-align: center;
+}
+.both-team{
+    padding: 0 1rem;
+}

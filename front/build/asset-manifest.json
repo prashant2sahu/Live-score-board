@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8a9b8e2d.css",
+    "main.js": "/static/js/main.312e54e2.js",
+    "static/media/Cricket.png": "/static/media/Cricket.e8062d1553a3f82e87fd.png",
+    "static/media/Football.png": "/static/media/Football.3e0fa7dd4efd24404bd8.png",
+    "index.html": "/index.html",
+    "main.8a9b8e2d.css.map": "/static/css/main.8a9b8e2d.css.map",
+    "main.312e54e2.js.map": "/static/js/main.312e54e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a9b8e2d.css",
+    "static/js/main.312e54e2.js"
+  ]
+}
