@@ -200,7 +200,7 @@ const perBall=convertBallsToOvers(ball);
           let tempScore=inputData.teamA.score;
           let tempOver=inputData.teamA.over;
           
-          const response= await fetch(`${window.location.origin}/api/v1/updateGameA`,{
+          const response= await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/v1/updateGameA`,{
             method:"POST",
             headers:{
               "Content-Type":"application/json",
@@ -227,7 +227,7 @@ const perBall=convertBallsToOvers(ball);
                 let tempScore=inputData.teamB.score;
                 let tempOver=inputData.teamB.over;
                 
-                const response= await fetch(`${window.location.origin}/api/v1/updateGameB`,{
+                const response= await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/v1/updateGameB`,{
                   method:"POST",
                   headers:{
                     "Content-Type":"application/json",

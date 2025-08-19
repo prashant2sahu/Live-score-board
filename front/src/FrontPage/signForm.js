@@ -45,7 +45,7 @@ function SignupForm(kuchbhi){
 
             // const savedUserResponse = await fetch("/api/v1/user", 
 
-            const savedUserResponse = await fetch(`${window.location.origin}/api/v1/user`, 
+            const savedUserResponse = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/v1/user`, 
 
                  {
                   method: "POST",

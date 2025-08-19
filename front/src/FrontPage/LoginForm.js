@@ -30,7 +30,7 @@ function LoginForm( props) {
 
     event.preventDefault();
     try {
-      const saveResponse = await fetch(`${window.location.origin}/api/v1/login`, {
+      const saveResponse = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/v1/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

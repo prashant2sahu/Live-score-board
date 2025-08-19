@@ -48,7 +48,7 @@ function Cricket() {
         try{
 
         console.log(`/game/${userId}`);
-        const savedUserResponse = await fetch(`${window.location.origin}/api/v1/game/${userId}`, 
+        const savedUserResponse = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/v1/game/${userId}`, 
 
             {
                 method: "POST",

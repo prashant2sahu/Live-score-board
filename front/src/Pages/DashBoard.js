@@ -8,7 +8,7 @@ function DashBoard() {
     const fetchData = async () => {
       try {
         
-        const result = await fetch(`${window.location.origin}/api/v1/DashBoard`);
+        const result = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/v1/DashBoard`);
         if (!result.ok) {
           throw new Error(`HTTP error! Status: ${result.status}`);
         }
